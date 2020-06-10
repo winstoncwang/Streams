@@ -39,3 +39,8 @@ V1.3
 
     adding route for different page
 
+-------------------------------------------------------------
+V1.4
+
+    add header and fix link outside browser router error
+
