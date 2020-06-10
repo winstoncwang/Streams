@@ -34,3 +34,8 @@ V1.2
 
     adding component file for different route
 
+-------------------------------------------------------------
+V1.3
+
+    adding route for different page
+
