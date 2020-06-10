@@ -29,3 +29,8 @@ V1.1
 
     Initial project setup
 
+-------------------------------------------------------------
+V1.2
+
+    adding component file for different route
+
