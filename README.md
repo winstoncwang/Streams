@@ -74,6 +74,12 @@ V2.5
 
     adding redux or state management, add reducer, action creater, react-redux
     
+-------------------------------------------------------------
+V2.51
+
+    adding userId as a parameter to the action creator to widen use of state management
+
+    
 
 
 
