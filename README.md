@@ -49,3 +49,8 @@ V2.1
 
     adding googleAuth component and wire gapi js library
 
+-------------------------------------------------------------
+V2.2
+
+    load and init the oauth process
+
