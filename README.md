@@ -54,3 +54,8 @@ V2.2
 
     load and init the oauth process
 
+-------------------------------------------------------------
+V2.3
+    fix small bug with syntax error and using auth object to determine the login states
+
+
