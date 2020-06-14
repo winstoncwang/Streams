@@ -58,4 +58,9 @@ V2.2
 V2.3
     fix small bug with syntax error and using auth object to determine the login states
 
+-------------------------------------------------------------
+V2.31
+    dynamic change to the loggin status via listen()
+
+
 
