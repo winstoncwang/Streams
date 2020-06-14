@@ -44,3 +44,8 @@ V1.4
 
     add header and fix link outside browser router error
 
+-------------------------------------------------------------
+V2.1
+
+    adding googleAuth component and wire gapi js library
+
