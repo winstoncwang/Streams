@@ -69,6 +69,11 @@ V2.4
 
     adding google oauth 2.0 for the correct login status as a button
     
+-------------------------------------------------------------
+V2.5
+
+    adding redux or state management, add reducer, action creater, react-redux
+    
 
 
 
