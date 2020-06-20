@@ -80,6 +80,12 @@ V2.51
     adding userId as a parameter to the action creator to widen use of state management
 
     
+-------------------------------------------------------------
+V3.1
+
+    add redux devtools for debugging redux
+
+    
 
 
 
