@@ -98,6 +98,12 @@ V3.3
     create a validation function to return errors when empty input is submitted
 
     
+-------------------------------------------------------------
+V3.4
+
+    display error when user enter empty input
+
+    
 
 
 
