@@ -1,7 +1,33 @@
 import React from 'react';
+//Field is a component, reduxForm is a function similar to connect() in react-redux
+import { Field, reduxForm } from 'redux-form';
 
-const StreamCreate = () => {
-	return <div>StreamCreate</div>;
-};
+class StreamCreate extends React.Component {
+	renderInput (formProps) {
+		return (
+			<div className="field">
+				<label>{formProps.label}</label>
+				<input {...formProps.input} />
+			</div>
+		);
+	}
 
-export default StreamCreate;
+	render () {
+		return (
+			<form className="ui form">
+				<Field
+					name="title"
+					component={this.renderInput}
+					label="Enter Title"
+				/>
+				<Field
+					name="description"
+					component={this.renderInput}
+					label="Enter Description"
+				/>
+			</form>
+		);
+	}
+}
+
+export default reduxForm({ form: 'streamCreate' })(StreamCreate);
