@@ -1,17 +1,31 @@
 import React from 'react';
 //Field is a component, reduxForm is a function similar to connect() in react-redux
-import { Field, reduxForm, getFormMeta } from 'redux-form';
+import { Field, reduxForm } from 'redux-form';
 
 class StreamCreate extends React.Component {
-	renderInput (formProps) {
+	renderError (meta) {
+		if (meta.touched && meta.error) {
+			return (
+				<div className="ui error message">
+					<div className="header">{meta.error}</div>
+				</div>
+			);
+		}
+	}
+
+	renderInput = (formProps) => {
+		const className = `field ${formProps.meta.touched &&
+		formProps.meta.error
+			? 'error'
+			: ''}`;
 		return (
-			<div className="field">
+			<div className={className}>
 				<label>{formProps.label}</label>
 				<input {...formProps.input} />
-				<div>{formProps.meta.error}</div>
+				{this.renderError(formProps.meta)}
 			</div>
 		);
-	}
+	};
 
 	onSubmit (formValues) {}
 
@@ -19,7 +33,7 @@ class StreamCreate extends React.Component {
 		return (
 			<form
 				onSubmit={this.props.handleSubmit(this.onSubmit)}
-				className="ui form"
+				className="ui form error"
 			>
 				<Field
 					name="title"
@@ -31,7 +45,7 @@ class StreamCreate extends React.Component {
 					component={this.renderInput}
 					label="Enter Description"
 				/>
-				<button className="ui primary">Submit</button>
+				<button className="ui primary blue button">Submit</button>
 			</form>
 		);
 	}
