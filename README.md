@@ -92,6 +92,12 @@ V3.2
     adding redux form, using field component to render inputbox
 
     
+-------------------------------------------------------------
+V3.3
+
+    create a validation function to return errors when empty input is submitted
+
+    
 
 
 
