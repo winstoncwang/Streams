@@ -86,6 +86,12 @@ V3.1
     add redux devtools for debugging redux
 
     
+-------------------------------------------------------------
+V3.2
+
+    adding redux form, using field component to render inputbox
+
+    
 
 
 
