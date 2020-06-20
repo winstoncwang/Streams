@@ -104,6 +104,12 @@ V3.4
     display error when user enter empty input
 
     
+-------------------------------------------------------------
+V3.41
+
+    display error depending on the condition
+
+    
 
 
 
