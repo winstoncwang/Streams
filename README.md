@@ -116,6 +116,12 @@ V4.1
     setup json server for tracking stream id and data
 
     
+-------------------------------------------------------------
+V4.2
+
+    create a rest post call to create a stream, update to action creater
+
+    
 
 
 
