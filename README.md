@@ -134,6 +134,12 @@ V4.4
     creating stream reducers for updating state of the stream
 
     
+-------------------------------------------------------------
+V4.41
+
+    connect the streamList component with the right action creater
+
+    
 
 
 
