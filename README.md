@@ -128,6 +128,12 @@ V4.3
     batch creating action creator using restful conventions
 
     
+-------------------------------------------------------------
+V4.4
+
+    creating stream reducers for updating state of the stream
+
+    
 
 
 
