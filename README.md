@@ -122,6 +122,12 @@ V4.2
     create a rest post call to create a stream, update to action creater
 
     
+-------------------------------------------------------------
+V4.3
+
+    batch creating action creator using restful conventions
+
+    
 
 
 
