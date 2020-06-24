@@ -140,6 +140,12 @@ V4.41
     connect the streamList component with the right action creater
 
     
+-------------------------------------------------------------
+V4.5
+
+    streamList rendering updated with userId
+
+    
 
 
 
