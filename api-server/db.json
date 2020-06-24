@@ -1,14 +1,20 @@
 {
-	"streams": [
-		{
-			"title": "My Stream",
-			"description": "Cool Stream",
-			"id": 1
-		},
-		{
-			"title": "My game",
-			"description": "cool game",
-			"id": 2
-		}
-	]
+  "streams": [
+    {
+      "title": "My Stream",
+      "description": "Cool Stream",
+      "id": 1
+    },
+    {
+      "title": "My game",
+      "description": "cool game",
+      "id": 2
+    },
+    {
+      "title": "wcw",
+      "description": "wcw",
+      "userId": "111119312155945954254",
+      "id": 3
+    }
+  ]
 }
