@@ -146,6 +146,12 @@ V4.5
     streamList rendering updated with userId
 
     
+-------------------------------------------------------------
+V4.51
+
+    adding edit, delete and create stream button for logged in users
+
+    
 
 
 
