@@ -152,6 +152,12 @@ V4.51
     adding edit, delete and create stream button for logged in users
 
     
+-------------------------------------------------------------
+V4.6
+
+    using router and own history object rather than browserRouter"
+
+    
 
 
 
