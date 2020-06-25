@@ -155,7 +155,13 @@ V4.51
 -------------------------------------------------------------
 V4.6
 
-    using router and own history object rather than browserRouter"
+    using router and own history object rather than browserRouter
+
+    
+-------------------------------------------------------------
+V4.61
+
+    using URL-based selection for edit button function
 
     
 
