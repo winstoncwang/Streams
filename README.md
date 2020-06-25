@@ -170,6 +170,12 @@ V4.62
     connecting edit page with state and props for specific stream id
 
     
+-------------------------------------------------------------
+V4.63
+
+    use component initiated AC for fetching individual stream
+
+    
 
 
 
