@@ -8,6 +8,7 @@ import {
 	DELETE_STREAM,
 	EDIT_STREAM
 } from './types';
+import history from '../history';
 
 export const createStream = (formValues) => {
 	return async (dispatch, getState) => {
@@ -17,6 +18,8 @@ export const createStream = (formValues) => {
 			userId
 		});
 		dispatch({ type: CREATE_STREAM, payload: response.data });
+		//programmatic navigation
+		history.push('/');
 	};
 };
 //get a list of streamss
