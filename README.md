@@ -164,6 +164,12 @@ V4.61
     using URL-based selection for edit button function
 
     
+-------------------------------------------------------------
+V4.62
+
+    connecting edit page with state and props for specific stream id
+
+    
 
 
 
