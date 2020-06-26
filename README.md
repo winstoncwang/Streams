@@ -176,6 +176,12 @@ V4.63
     use component initiated AC for fetching individual stream
 
     
+-------------------------------------------------------------
+V4.7
+
+    refractor both stream edit/create form to streamform
+
+    
 
 
 
