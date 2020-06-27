@@ -145,48 +145,45 @@ V4.5
 
     streamList rendering updated with userId
 
-    
 -------------------------------------------------------------
 V4.51
 
     adding edit, delete and create stream button for logged in users
 
-    
 -------------------------------------------------------------
 V4.6
 
     using router and own history object rather than browserRouter
 
-    
 -------------------------------------------------------------
 V4.61
 
     using URL-based selection for edit button function
 
-    
 -------------------------------------------------------------
 V4.62
 
     connecting edit page with state and props for specific stream id
 
-    
 -------------------------------------------------------------
 V4.63
 
     use component initiated AC for fetching individual stream
 
-    
 -------------------------------------------------------------
 V4.7
 
     refractor both stream edit/create form to streamform
 
-    
 -------------------------------------------------------------
 V4.71
 
     programmatic nav and edit form implemented
 
+-------------------------------------------------------------
+V4.72
+
+    bug fix of disappering edit and delete button after edit form
 
     
 
