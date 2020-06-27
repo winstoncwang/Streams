@@ -182,6 +182,13 @@ V4.7
     refractor both stream edit/create form to streamform
 
     
+-------------------------------------------------------------
+V4.71
+
+    programmatic nav and edit form implemented
+
+
+    
 
 
 
