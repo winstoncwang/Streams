@@ -52,7 +52,11 @@ export const deleteStream = (id) => {
 	return async (dispatch) => {
 		const response = await streams.delete(`/streams/${id}`);
 
-		dispatch({ type: DELETE_STREAM, payload: response.data });
+		dispatch({ type: DELETE_STREAM, payload: id });
+		//_omit deletes the current state stream using id type, if using reponse.data, {] is passed rather, this prevents any deletion, hence the state is not changed.
+		//going back to '/' rerenders the exact same list. But reloading the page sends a get request to the api-server, the REST delete method is still invoked,
+		// hence newly fetched list removed the deleted stream.
+		history.push('/');
 	};
 };
 
