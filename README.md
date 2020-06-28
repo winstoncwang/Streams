@@ -183,7 +183,13 @@ V4.71
 -------------------------------------------------------------
 V4.72
 
-    bug fix of disappering edit and delete button after edit form
+    bug fix of disappearing edit and delete button after edit form
+
+    
+-------------------------------------------------------------
+V4.73
+
+    adding modal window using react portal and navi using history
 
     
 
