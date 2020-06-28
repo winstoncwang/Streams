@@ -192,6 +192,12 @@ V4.73
     adding modal window using react portal and navi using history
 
     
+-------------------------------------------------------------
+V4.8
+
+    modal window full function, routing with :id for delete page
+
+    
 
 
 
