@@ -204,6 +204,12 @@ V5.1
     bug with the router showing multiple pages, use <Switch> to prevent this.
 
     
+-------------------------------------------------------------
+V5.2
+
+    install rtmp server and OBS for streaming
+
+    
 
 
 
