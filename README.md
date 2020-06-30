@@ -198,6 +198,12 @@ V4.8
     modal window full function, routing with :id for delete page
 
     
+-------------------------------------------------------------
+V5.1
+
+    bug with the router showing multiple pages, use <Switch> to prevent this.
+
+    
 
 
 
